@@ -205,7 +205,14 @@
         Process.Start(webadress)
     End Sub
 
- 
+    Private Sub HowToUseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles HowToUseToolStripMenuItem.Click
+        Form2.Show()
+    End Sub
+
+    Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
+        Me.Close()
+    End Sub
+
 End Class
 ' Created by Maksym Makuch
 ' All rights reserved

@@ -60,11 +60,20 @@ Partial Class Form1
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.Label16 = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutAuthorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HowToUseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LeaveFeedbackToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -449,11 +458,58 @@ Partial Class Form1
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Lucida Calligraphy", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label16.Location = New System.Drawing.Point(43, 23)
+        Me.Label16.Location = New System.Drawing.Point(43, 33)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(734, 27)
         Me.Label16.TabIndex = 22
         Me.Label16.Text = "Welcome to the Interior Decorating and Painting Company"
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.HelpToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(831, 24)
+        Me.MenuStrip1.TabIndex = 23
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'MenuToolStripMenuItem
+        '
+        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
+        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(35, 20)
+        Me.MenuToolStripMenuItem.Text = "File"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutAuthorToolStripMenuItem, Me.HowToUseToolStripMenuItem, Me.LeaveFeedbackToolStripMenuItem})
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(40, 20)
+        Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'AboutAuthorToolStripMenuItem
+        '
+        Me.AboutAuthorToolStripMenuItem.Name = "AboutAuthorToolStripMenuItem"
+        Me.AboutAuthorToolStripMenuItem.Size = New System.Drawing.Size(161, 22)
+        Me.AboutAuthorToolStripMenuItem.Text = "About author"
+        '
+        'HowToUseToolStripMenuItem
+        '
+        Me.HowToUseToolStripMenuItem.Name = "HowToUseToolStripMenuItem"
+        Me.HowToUseToolStripMenuItem.Size = New System.Drawing.Size(161, 22)
+        Me.HowToUseToolStripMenuItem.Text = "How to use?"
+        '
+        'LeaveFeedbackToolStripMenuItem
+        '
+        Me.LeaveFeedbackToolStripMenuItem.Name = "LeaveFeedbackToolStripMenuItem"
+        Me.LeaveFeedbackToolStripMenuItem.Size = New System.Drawing.Size(161, 22)
+        Me.LeaveFeedbackToolStripMenuItem.Text = "Leave feedback"
         '
         'Form1
         '
@@ -469,6 +525,8 @@ Partial Class Form1
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox6)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.Text = "Paint cost calculator"
         Me.GroupBox1.ResumeLayout(False)
@@ -481,6 +539,8 @@ Partial Class Form1
         Me.GroupBox5.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -522,5 +582,13 @@ Partial Class Form1
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AboutAuthorToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HowToUseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LeaveFeedbackToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HelpProvider1 As System.Windows.Forms.HelpProvider
 
 End Class

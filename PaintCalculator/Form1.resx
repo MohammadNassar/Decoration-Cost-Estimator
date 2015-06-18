@@ -121,8 +121,8 @@
   <data name="GroupBox6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAYUAAAEBCAYAAACXArmGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALAgAA
-        CwIBm8luNgAA4BtJREFUeF7snQWcXOX1hkuBAjVKqbfUvX9KvbRICAR3d3cr9RYopa5QKKUClOIWd/cE
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAA4BtJREFUeF7snQWcXOX1hkuBAjVKqbfUvX9KvbRICAR3d3cr9RYopa5QKKUClOIWd/cE
         d5fgTmQ36zYz3/95zr13WSBAEgLJJnfm9/12d3bkzjd3jrzvOe9505vKS7kD5Q6UO1DuQLkD5Q6UO1Du
         QLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6U
         O1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD5Q6UO1DuQLkD
@@ -1081,4 +1081,10 @@
         KKCAAgoooIACCiiggAIKKKDA/AI/AeG7365qNyavAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="HelpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
 </root>
