@@ -8,3 +8,4 @@ As well as selecting the quality of the paint which can be 'Luxury', 'Standard' 
 Additionally, the user can select the type of measurement to be either in 'Metres' or in 'Feet'.
 
 After inputing all the details of room dimensions, paint quality and measurement type, the user can press the button labelled as: 'Calculate Total Area and Cost'.  This button will execute the estimation code and - as a result - will display the total area (in metres or feet - based on measurement type selected) as well as the total estimated cost.
+
