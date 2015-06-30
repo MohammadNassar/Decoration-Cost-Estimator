@@ -9,3 +9,7 @@ Additionally, the user can select the type of measurement to be either in 'Metre
 
 After inputing all the details of room dimensions, paint quality and measurement type, the user can press the button labelled as: 'Calculate Total Area and Cost'.  This button will execute the estimation code and - as a result - will display the total area (in metres or feet - based on measurement type selected) as well as the total estimated cost.
 
+###Author:
+
+This program is designed by Mohammad Nassar.
+
