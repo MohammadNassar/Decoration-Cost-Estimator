@@ -13,3 +13,7 @@ After inputing all the details of room dimensions, paint quality and measurement
 
 This program is designed by Mohammad Nassar.
 
+###License:
+
+* All coptrights are reserved to the program author/developer Mohammad Nassar (mentioned above).
+
