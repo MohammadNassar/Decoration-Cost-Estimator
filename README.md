@@ -11,7 +11,7 @@ After inputing all the details of room dimensions, paint quality and measurement
 
 ###Author:
 
-This program is designed by Mohammad Nassar.
+This program is designed by Mohammad Nassar. Former student at BSix Sixth Form College.
 
 ###License:
 
